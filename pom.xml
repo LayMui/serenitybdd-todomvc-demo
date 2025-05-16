@@ -15,8 +15,12 @@
         <encoding>UTF-8</encoding>
         <serenity.test.root></serenity.test.root>
         <tags></tags>
+        
     </properties>
+    
     <dependencies>
+   
+       
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
@@ -99,6 +103,11 @@
             <version>3.22.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+	<groupId>com.epam.healenium</groupId>
+	<artifactId>healenium-web</artifactId>
+	<version>3.5.6</version>
+</dependency>
     </dependencies>
     <build>
         <plugins>
