@@ -5,6 +5,8 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Open;
+import net.serenitybdd.core.pages.PageObject;
+import net.serenitybdd.demos.todos.screenplay.model.TodoStatusFilter;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,6 +16,7 @@ public class Start {
     public static Performable withAnEmptyTodoList() {
         return Task.where("{0} starts with an empty todo list",
                 Open.browserOn().thePageNamed("home.page")
+               
         );
     }
 

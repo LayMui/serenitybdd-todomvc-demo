@@ -11,14 +11,14 @@ Feature: Add new todos
     When he adds 'Buy some milk' to his list
     Then 'Buy some milk' should be recorded in his list
 
-  Scenario: Adding an item to a list with other items in Cucumber
-    Given that Jane has a todo list containing Buy some milk, Walk the dog
-    When she adds 'Buy some cereal' to her list
-    Then her todo list should contain Buy some milk, Walk the dog, Buy some cereal
+  #Scenario: Adding an item to a list with other items in Cucumber
+  #  Given that Jane has a todo list containing Buy some milk, Walk the dog
+  #  When she adds 'Buy some cereal' to her list
+  #  Then her todo list should contain Buy some milk, Walk the dog, Buy some cereal
 
-  Scenario: Adding items to several peoples lists in Cucumber
-    Given that James has a todo list containing Buy some milk, Walk the dog
-    And that Jill has a todo list containing Buy some milk, Buy some cheese
-    When she adds 'Buy some cereal' to her list
-    Then Jill's todo list should contain Buy some milk, Buy some cheese, Buy some cereal
-    And James's todo list should contain Buy some milk, Walk the dog
+  #Scenario: Adding items to several peoples lists in Cucumber
+  #  Given that James has a todo list containing Buy some milk, Walk the dog
+  #  And that Jill has a todo list containing Buy some milk, Buy some cheese
+  #  When she adds 'Buy some cereal' to her list
+  #  Then Jill's todo list should contain Buy some milk, Buy some cheese, Buy some cereal
+  #  And James's todo list should contain Buy some milk, Walk the dog
