@@ -22,6 +22,8 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
+
+
 import java.util.List;
 
 import static java.util.Collections.EMPTY_LIST;
@@ -54,8 +56,10 @@ public class TodoUserSteps {
         return Splitter.on(",").trimResults().omitEmptyStrings().splitToList(listOfItems);
     }
 
+ 
     @Given("that {actor} has an empty todo list")
     public void that_James_has_an_empty_todo_list(Actor actor) {
+         
         actor.wasAbleTo(Start.withAnEmptyTodoList());
     }
 

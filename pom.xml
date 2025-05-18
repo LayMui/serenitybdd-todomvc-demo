@@ -15,6 +15,10 @@
         <encoding>UTF-8</encoding>
         <serenity.test.root></serenity.test.root>
         <tags></tags>
+        <webdrivermanager.version>5.9.2</webdrivermanager.version>
+        <selenium.version>4.25.0</selenium.version>
+        <selenide.version>7.0.0</selenide.version>
+       
         
     </properties>
     
@@ -104,10 +108,20 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-	<groupId>com.epam.healenium</groupId>
-	<artifactId>healenium-web</artifactId>
-	<version>3.5.6</version>
-</dependency>
+            <groupId>com.epam.healenium</groupId>
+            <artifactId>healenium-web</artifactId>
+            <version>3.5.6</version>
+        </dependency>
+         <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>${selenide.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
 
  
     </dependencies>
